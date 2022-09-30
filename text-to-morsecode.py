@@ -4,7 +4,7 @@ code = []
 print('special characters can not be in the text, they wil be automaticly removed')
 
 while True:
-    text = input('translate text: ')
+    text = input('text: ')
     for i in text:
         if i in text_to_code:
             code.append(text_to_code[i])
