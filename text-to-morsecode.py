@@ -8,6 +8,6 @@ while True:
     for i in text:
         if i in text_to_code:
             code.append(text_to_code[i])
-    joinder_code = ''.join(code)
-    print(joinder_code)
+    joined_code = ''.join(code)
+    print(joined_code)
     code = []
